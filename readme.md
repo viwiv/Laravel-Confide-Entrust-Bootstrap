@@ -1,6 +1,6 @@
 # Laravel 4 with Entrust and Bootstrap
 
-Clean Laravel install with a basic user system provided by [zizaco/confide](https://github.com/zizaco/confide) and using Twitter Bootstrap for styling.
+Clean Laravel 4 install with a basic user system provided by [zizaco/confide](https://github.com/zizaco/confide) and role based permissions system provided by [zizaco/entrust](https://github.com/zizaco/entrust) using Twitter Bootstrap for styling.
 
 ## How to install
 
@@ -69,6 +69,8 @@ settings must be changed accordingly.
 
 ### Run Database Seeder
 
+	php artisan db:seed
+
 Run the database seeder to:
 
 - Create the user `Admin` with password `testing`
@@ -77,8 +79,6 @@ Run the database seeder to:
 - Create two permissions, `manage_posts` and `manage_users`
 - Assign the `Owner` role both the `manage_posts` and `manage_users`
 - Assign the `Admin` role the `manage_posts` permission
-
-	php artisan db:seed
 
 -----
 
