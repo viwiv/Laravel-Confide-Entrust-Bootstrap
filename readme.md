@@ -6,7 +6,7 @@ Clean Laravel 4 install with a basic user system provided by [zizaco/confide](ht
 
 ### Clone this repository
 
-	git clone git://github.com/BenBradley/Laravel-Entrust-Bootstrap.git laravel
+	git clone git@github.com:BenBradley/Laravel-Confide-Entrust-Bootstrap.git laravel
 
 -----
 
