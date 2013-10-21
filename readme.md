@@ -50,9 +50,16 @@ We can use the following command to set one using artisan:
 ### Database
 Update ***app/config/database.php*** with database details
 
-Carry out initial migration. This will set up the migrations, user and password_reminder tables.
-
 	php artisan migrate
+Carry out initial migration. This will set up:
+- Migrations table
+- Users table
+- Password_reminder table
+- Roles table
+- Assigned_roles table
+- Permissions table
+- Permission_role table
+
 
 -----
 
