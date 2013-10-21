@@ -1,4 +1,4 @@
-# Laravel 4 with Entrust and Bootstrap
+# Laravel 4 with Confide, Entrust and Bootstrap
 
 Clean Laravel 4 install with a basic user system provided by [zizaco/confide](https://github.com/zizaco/confide) and role based permissions system provided by [zizaco/entrust](https://github.com/zizaco/entrust) using Twitter Bootstrap for styling.
 
